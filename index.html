@@ -1,14 +1,107 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hello World</title>
-  <link href='/style.css' rel='stylesheet'>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>모던 인테리어 | 당신의 공간을 디자인합니다</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello, world!</h1>
-  <button onclick="console.log('hello');">Press me</button>
-  <script defer type="text/javascript" src="/main.js"></script>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#">모던 인테리어</a>
+            </div>
+            <ul>
+                <li><a href="#services">서비스</a></li>
+                <li><a href="#portfolio">포트폴리오</a></li>
+                <li><a href="#about">회사소개</a></li>
+                <li><a href="#contact">연락처</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>당신의 공간에 감성을 더하는 디자인</h1>
+                <p>모던 인테리어는 혁신적인 디자인과 섬세한 시공으로 고객님의 라이프스타일을 완성합니다.</p>
+                <a href="#contact" class="cta-button">무료 상담 받기</a>
+            </div>
+        </section>
+
+        <section id="services">
+            <h2>우리의 서비스</h2>
+            <div class="service-items">
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/100" alt="주거 공간 인테리어">
+                    <h3>주거 공간</h3>
+                    <p>편안하고 아름다운 집을 위한 맞춤형 디자인 솔루션을 제공합니다.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/100" alt="상업 공간 인테리어">
+                    <h3>상업 공간</h3>
+                    <p>브랜드의 가치를 높이고 고객을 사로잡는 매력적인 공간을 만듭니다.</p>
+                </div>
+                <div class="service-item">
+                    <img src="https://via.placeholder.com/100" alt="사무 공간 인테리어">
+                    <h3>사무 공간</h3>
+                    <p>업무 효율을 높이고 창의적인 아이디어를 이끌어내는 환경을 조성합니다.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio">
+            <h2>포트폴리오</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="프로젝트 1">
+                    <div class="portfolio-caption">
+                        <h3>미니멀리스트 아파트</h3>
+                        <p>서울, 강남</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="프로젝트 2">
+                    <div class="portfolio-caption">
+                        <h3>인더스트리얼 카페</h3>
+                        <p>부산, 해운대</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://via.placeholder.com/300x200" alt="프로젝트 3">
+                    <div class="portfolio-caption">
+                        <h3>자연 친화적 오피스</h3>
+                        <p>제주, 서귀포</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>우리에 대하여</h2>
+            <p>모던 인테리어는 10년 이상의 경험을 가진 전문가들로 구성된 팀입니다. 우리는 모든 프로젝트에 열정을 쏟으며, 고객 만족을 최우선으로 생각합니다. 우리의 디자인 철학은 단순함, 기능성, 그리고 아름다움의 조화입니다.</p>
+        </section>
+
+        <section id="contact">
+            <h2>연락처</h2>
+            <form>
+                <input type="text" name="name" placeholder="이름" required>
+                <input type="email" name="email" placeholder="이메일" required>
+                <textarea name="message" placeholder="메시지" required></textarea>
+                <button type="submit">전송</button>
+            </form>
+            <div class="contact-info">
+                <p>Email: contact@moderninterior.com</p>
+                <p>Phone: 02-1234-5678</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 모던 인테리어. All rights reserved.</p>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
